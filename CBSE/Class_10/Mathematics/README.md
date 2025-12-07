@@ -28,8 +28,8 @@ This repository contains NotebookLM-powered AI study guides for CBSE Class 10 Ma
 | Purpose | Description | NotebookLM Link |
 | :--- | :--- | :--- |
 | **Full Course** | All 14 chapters combined | [View Notebook](https://notebooklm.google.com/notebook/1b24a103-26d1-4845-a01f-3345253a630c) |
-| **Hardest Chapters** | Triangles, Trigonometry, Surface Areas & Volumes | [View Notebook](#) |
-| **Exemplar Practice** | Question papers with solutions | [View Notebook](#) |
+| **Hardest Chapters** | Triangles, Trigonometry, Surface Areas & Volumes | TBD |
+| **Exemplar Practice** | Question papers with solutions | TBD |
 
 ---
 
