@@ -6,20 +6,20 @@ This repository contains NotebookLM-powered AI study guides for CBSE Class 10 Ma
 
 | Ch. | Chapter Name | NotebookLM Study Guide | Source PDFs |
 | :---: | :--- | :--- | :--- |
-| 01 | Real Numbers | [View Guide](#) | [Textbook](./resources/01_real_numbers/cbse_10_maths_ch01_real_numbers_textbook.pdf) • [Exemplar](./resources/01_real_numbers/cbse_10_maths_ch01_real_numbers_exemplar.pdf) |
-| 02 | Polynomials | [View Guide](#) | [Textbook](./resources/02_polynomials/cbse_10_maths_ch02_polynomials_textbook.pdf) • [Exemplar](./resources/02_polynomials/cbse_10_maths_ch02_polynomials_exemplar.pdf) |
-| 03 | Pair of Linear Equations in Two Variables | [View Guide](#) | [Textbook](./resources/03_linear_equations/cbse_10_maths_ch03_linear_equations_textbook.pdf) • [Exemplar](./resources/03_linear_equations/cbse_10_maths_ch03_linear_equations_exemplar.pdf) |
-| 04 | Quadratic Equations | [View Guide](#) | [Textbook](./resources/04_quadratic_equations/cbse_10_maths_ch04_quadratic_equations_textbook.pdf) • [Exemplar](./resources/04_quadratic_equations/cbse_10_maths_ch04_quadratic_equations_exemplar.pdf) |
-| 05 | Arithmetic Progressions | [View Guide](#) | [Textbook](./resources/05_arithmetic_progressions/cbse_10_maths_ch05_arithmetic_progressions_textbook.pdf) • [Exemplar](./resources/05_arithmetic_progressions/cbse_10_maths_ch05_arithmetic_progressions_exemplar.pdf) |
-| 06 | Triangles | [View Guide](#) | [Textbook](./resources/06_triangles/cbse_10_maths_ch06_triangles_textbook.pdf) • [Exemplar](./resources/06_triangles/cbse_10_maths_ch06_triangles_exemplar.pdf) |
-| 07 | Coordinate Geometry | [View Guide](#) | [Textbook](./resources/07_coordinate_geometry/cbse_10_maths_ch07_coordinate_geometry_textbook.pdf) • [Exemplar](./resources/07_coordinate_geometry/cbse_10_maths_ch07_coordinate_geometry_exemplar.pdf) |
-| 08 | Introduction to Trigonometry | [View Guide](#) | [Textbook](./resources/08_trigonometry/cbse_10_maths_ch08_trigonometry_textbook.pdf) • [Exemplar](./resources/08_trigonometry/cbse_10_maths_ch08_trigonometry_exemplar.pdf) |
-| 09 | Some Applications of Trigonometry | [View Guide](#) | [Textbook](./resources/09_applications_trigonometry/cbse_10_maths_ch09_applications_trigonometry_textbook.pdf) |
-| 10 | Circles | [View Guide](#) | [Textbook](./resources/10_circles/cbse_10_maths_ch10_circles_textbook.pdf) • [Exemplar](./resources/10_circles/cbse_10_maths_ch10_circles_exemplar.pdf) |
-| 11 | Constructions | [View Guide](#) | [Textbook](./resources/11_constructions/cbse_10_maths_ch11_constructions_textbook.pdf) • [Exemplar](./resources/11_constructions/cbse_10_maths_ch11_constructions_exemplar.pdf) |
-| 12 | Areas Related to Circles | [View Guide](#) | [Textbook](./resources/12_areas_circles/cbse_10_maths_ch12_areas_circles_textbook.pdf) • [Exemplar](./resources/12_areas_circles/cbse_10_maths_ch12_areas_circles_exemplar.pdf) |
-| 13 | Surface Areas and Volumes | [View Guide](#) | [Textbook](./resources/13_surface_areas_volumes/cbse_10_maths_ch13_surface_areas_volumes_textbook.pdf) • [Exemplar](./resources/13_surface_areas_volumes/cbse_10_maths_ch13_surface_areas_volumes_exemplar.pdf) |
-| 14 | Statistics | [View Guide](#) | [Textbook](./resources/14_statistics/cbse_10_maths_ch14_statistics_textbook.pdf) • [Exemplar](./resources/14_statistics/cbse_10_maths_ch14_statistics_exemplar.pdf) |
+| 01 | Real Numbers | [View Guide](https://notebooklm.google.com/notebook/1ef49af2-2dfb-46d9-88e1-1db73a6d7cf4) | [Textbook](./resources/01_real_numbers/cbse_10_maths_ch01_real_numbers_textbook.pdf) • [Exemplar](./resources/01_real_numbers/cbse_10_maths_ch01_real_numbers_exemplar.pdf) |
+| 02 | Polynomials | [View Guide](https://notebooklm.google.com/notebook/11cc56af-7126-48f2-b631-1f5e6c09f2d2) | [Textbook](./resources/02_polynomials/cbse_10_maths_ch02_polynomials_textbook.pdf) • [Exemplar](./resources/02_polynomials/cbse_10_maths_ch02_polynomials_exemplar.pdf) |
+| 03 | Pair of Linear Equations in Two Variables | [View Guide](https://notebooklm.google.com/notebook/bf2ac249-efb2-4325-b597-b89c9ac7bde4) | [Textbook](./resources/03_linear_equations/cbse_10_maths_ch03_linear_equations_textbook.pdf) • [Exemplar](./resources/03_linear_equations/cbse_10_maths_ch03_linear_equations_exemplar.pdf) |
+| 04 | Quadratic Equations | [View Guide](https://notebooklm.google.com/notebook/28014514-5e2c-42ea-bb37-a74eec4ace7d) | [Textbook](./resources/04_quadratic_equations/cbse_10_maths_ch04_quadratic_equations_textbook.pdf) • [Exemplar](./resources/04_quadratic_equations/cbse_10_maths_ch04_quadratic_equations_exemplar.pdf) |
+| 05 | Arithmetic Progressions | [View Guide](https://notebooklm.google.com/notebook/81475664-e438-48fc-b400-7517412ff4c3) | [Textbook](./resources/05_arithmetic_progressions/cbse_10_maths_ch05_arithmetic_progressions_textbook.pdf) • [Exemplar](./resources/05_arithmetic_progressions/cbse_10_maths_ch05_arithmetic_progressions_exemplar.pdf) |
+| 06 | Triangles | [View Guide](https://notebooklm.google.com/notebook/4a0c5650-82b5-4f90-8578-499888c22eae) | [Textbook](./resources/06_triangles/cbse_10_maths_ch06_triangles_textbook.pdf) • [Exemplar](./resources/06_triangles/cbse_10_maths_ch06_triangles_exemplar.pdf) |
+| 07 | Coordinate Geometry | TBD | [Textbook](./resources/07_coordinate_geometry/cbse_10_maths_ch07_coordinate_geometry_textbook.pdf) • [Exemplar](./resources/07_coordinate_geometry/cbse_10_maths_ch07_coordinate_geometry_exemplar.pdf) |
+| 08 | Introduction to Trigonometry | TBD | [Textbook](./resources/08_trigonometry/cbse_10_maths_ch08_trigonometry_textbook.pdf) • [Exemplar](./resources/08_trigonometry/cbse_10_maths_ch08_trigonometry_exemplar.pdf) |
+| 09 | Some Applications of Trigonometry | TBD | [Textbook](./resources/09_applications_trigonometry/cbse_10_maths_ch09_applications_trigonometry_textbook.pdf) |
+| 10 | Circles | TBD | [Textbook](./resources/10_circles/cbse_10_maths_ch10_circles_textbook.pdf) • [Exemplar](./resources/10_circles/cbse_10_maths_ch10_circles_exemplar.pdf) |
+| 11 | Constructions | TBD | [Textbook](./resources/11_constructions/cbse_10_maths_ch11_constructions_textbook.pdf) • [Exemplar](./resources/11_constructions/cbse_10_maths_ch11_constructions_exemplar.pdf) |
+| 12 | Areas Related to Circles | TBD | [Textbook](./resources/12_areas_circles/cbse_10_maths_ch12_areas_circles_textbook.pdf) • [Exemplar](./resources/12_areas_circles/cbse_10_maths_ch12_areas_circles_exemplar.pdf) |
+| 13 | Surface Areas and Volumes | TBD | [Textbook](./resources/13_surface_areas_volumes/cbse_10_maths_ch13_surface_areas_volumes_textbook.pdf) • [Exemplar](./resources/13_surface_areas_volumes/cbse_10_maths_ch13_surface_areas_volumes_exemplar.pdf) |
+| 14 | Statistics | TBD | [Textbook](./resources/14_statistics/cbse_10_maths_ch14_statistics_textbook.pdf) • [Exemplar](./resources/14_statistics/cbse_10_maths_ch14_statistics_exemplar.pdf) |
 
 ---
 

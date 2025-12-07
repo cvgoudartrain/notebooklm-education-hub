@@ -208,3 +208,6 @@ __marimo__/
 
 # General instructions folders used by developers
 docs/
+
+# Image folders for README screenshots
+**/image/
