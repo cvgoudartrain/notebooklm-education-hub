@@ -43,9 +43,9 @@ This repository contains NotebookLM-powered AI study guides for CBSE Class 10 Ma
 - [Rationalised Content Guide](./resources/all/rationalised_content.pdf) - Syllabus information
 
 ### Official CBSE Resources
-- [CBSE Class 10 Syllabus](https://cbseacademic.nic.in/web_material/Curriculum/SrSecondary/Mathematics_SR_SEC_2023-24.pdf)
+- [CBSE Academic Website](https://cbseacademic.nic.in/) - Official curriculum and resources
 - [NCERT Official Website](https://ncert.nic.in/)
-- [Previous Year Question Papers](https://cbse.gov.in/cbsenew/examination.html)
+- [CBSE Main Website](https://www.cbse.gov.in/) - Examination information and updates
 
 ---
 
