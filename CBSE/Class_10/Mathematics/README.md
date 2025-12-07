@@ -19,7 +19,7 @@ This repository contains NotebookLM-powered AI study guides for CBSE Class 10 Ma
 | 11 | Constructions | [View Guide](https://notebooklm.google.com/notebook/db2dcc02-0543-43b1-a8b1-541aa8415b4b) | [Textbook](./resources/11_constructions/cbse_10_maths_ch11_constructions_textbook.pdf) • [Exemplar](./resources/11_constructions/cbse_10_maths_ch11_constructions_exemplar.pdf) |
 | 12 | Areas Related to Circles | [View Guide](https://notebooklm.google.com/notebook/9220b68f-df1c-40ef-8a42-159d3f13922f) | [Textbook](./resources/12_areas_circles/cbse_10_maths_ch12_areas_circles_textbook.pdf) • [Exemplar](./resources/12_areas_circles/cbse_10_maths_ch12_areas_circles_exemplar.pdf) |
 | 13 | Surface Areas and Volumes | [View Guide](https://notebooklm.google.com/notebook/da243140-0292-4c04-815f-bf85fde9a1b8) | [Textbook](./resources/13_surface_areas_volumes/cbse_10_maths_ch13_surface_areas_volumes_textbook.pdf) • [Exemplar](./resources/13_surface_areas_volumes/cbse_10_maths_ch13_surface_areas_volumes_exemplar.pdf) |
-| 14 | Statistics | TBD | [Textbook](./resources/14_statistics/cbse_10_maths_ch14_statistics_textbook.pdf) • [Exemplar](./resources/14_statistics/cbse_10_maths_ch14_statistics_exemplar.pdf) |
+| 14 | Statistics | [View Guide](https://notebooklm.google.com/notebook/8fb634e5-ac71-4cb0-ad7f-7f2c39871467) | [Textbook](./resources/14_statistics/cbse_10_maths_ch14_statistics_textbook.pdf) • [Exemplar](./resources/14_statistics/cbse_10_maths_ch14_statistics_exemplar.pdf) |
 
 ---
 
