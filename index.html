@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Turn your textbooks into an interactive AI Tutor. Free NotebookLM Education Hub with curated educational resources optimized for Google NotebookLM - CBSE, ICSE, and State Boards.">
+    <meta name="keywords" content="NotebookLM, AI Tutor, Education Hub, CBSE, ICSE, NCERT, Study Resources, AI Study Guide, Free Educational Resources, Google NotebookLM, Interactive Learning">
+    <meta name="author" content="NotebookLM Education Hub">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cvgoudartrain.github.io/notebooklm-education-hub/">
+    <meta property="og:title" content="NotebookLM Education Hub - Turn Textbooks into AI Tutors">
+    <meta property="og:description" content="Free curated educational resources optimized for Google NotebookLM. Build your own AI study assistant with structured textbooks, exemplars, and solutions.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://cvgoudartrain.github.io/notebooklm-education-hub/">
+    <meta property="twitter:title" content="NotebookLM Education Hub - Turn Textbooks into AI Tutors">
+    <meta property="twitter:description" content="Free curated educational resources optimized for Google NotebookLM. Build your own AI study assistant.">
+    
+    <title>NotebookLM Education Hub 🎓 - Turn Textbooks into Interactive AI Tutors</title>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+        .content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .strategy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .strategy-card {
+            border: 2px solid #e0e0e0;
+            padding: 25px;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+        }
+        .strategy-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+        .strategy-icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        .strategy-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #333;
+        }
+        .subject-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .subject-card {
+            border: 2px solid #e0e0e0;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-align: center;
+        }
+        .subject-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+        .subject-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .button {
+            background: #667eea;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            transition: background 0.3s;
+            font-weight: 500;
+        }
+        .button:hover {
+            background: #764ba2;
+        }
+        .button-secondary {
+            background: #4CAF50;
+        }
+        .button-secondary:hover {
+            background: #45a049;
+        }
+        .badge {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .code-block {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+        }
+        .step-list {
+            counter-reset: step-counter;
+            list-style: none;
+            padding: 0;
+        }
+        .step-list li {
+            counter-increment: step-counter;
+            padding: 15px 0;
+            padding-left: 50px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .step-list li:before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+    </style>
+    
+    <!-- Schema.org structured data for better SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "NotebookLM Education Hub",
+      "description": "Free curated educational resources optimized for Google NotebookLM. Turn textbooks into interactive AI tutors.",
+      "url": "https://cvgoudartrain.github.io/notebooklm-education-hub/",
+      "educationalLevel": "K-12 Education",
+      "teaches": "CBSE, ICSE, State Board Curriculum"
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>🎓 NotebookLM Education Hub</h1>
+        <div class="subtitle">Turn your textbooks into an interactive AI Tutor <span class="badge">100% FREE</span></div>
+    </header>
+    
+    <div class="content">
+        <h2>🌟 Welcome</h2>
+        <p>This repository hosts a curated, structured collection of educational resources (Textbooks, Exemplars, Solutions) optimized for use with <a href="https://notebooklm.google.com/" target="_blank" style="color: #667eea;">Google NotebookLM</a>.</p>
+        <p><strong>The goal is to provide students and educators with clean, machine-readable datasets to build their own "Mega-Brain" AI study assistants.</strong></p>
+    </div>
+
+    <div class="content">
+        <h2>🚀 The "Hub & Spoke" Strategy</h2>
+        <p>We organize content to support two powerful study modes:</p>
+        
+        <div class="strategy-grid">
+            <div class="strategy-card">
+                <div class="strategy-icon">🌟</div>
+                <div class="strategy-title">The Hub ("Mega-Brain")</div>
+                <p><strong>Goal:</strong> Full syllabus simulation.</p>
+                <p><strong>Content:</strong> All chapters + All exemplars combined.</p>
+                <p><strong>Use Case:</strong> Mock exams, cross-chapter connections, and comprehensive revision.</p>
+            </div>
+            
+            <div class="strategy-card">
+                <div class="strategy-icon">🔍</div>
+                <div class="strategy-title">The Spokes ("Deep Dives")</div>
+                <p><strong>Goal:</strong> Chapter mastery.</p>
+                <p><strong>Content:</strong> Specific chapter files (e.g., <code>cbse_10_maths_ch06_triangles_...</code>).</p>
+                <p><strong>Use Case:</strong> Audio overviews (podcasts) for specific topics, deep concept drilling.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>📚 Available Subjects</h2>
+        <p>Browse our collection of structured educational resources:</p>
+        
+        <div class="subject-grid">
+            <div class="subject-card">
+                <div class="subject-icon">📐</div>
+                <h3>CBSE Class 10</h3>
+                <h4>Mathematics</h4>
+                <p>All 14 chapters with NotebookLM study guides</p>
+                <a href="CBSE/Class_10/Mathematics/" class="button">Explore Mathematics →</a>
+            </div>
+            
+            <div class="subject-card">
+                <div class="subject-icon">🔬</div>
+                <h3>CBSE Class 10</h3>
+                <h4>Science</h4>
+                <p>Coming soon...</p>
+                <a href="CBSE/Class_10/Science/" class="button" style="opacity: 0.6; cursor: not-allowed;">Coming Soon</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>⚡ Quick Start Guide</h2>
+        <ol class="step-list">
+            <li><strong>Navigate</strong> to your desired subject folder (e.g., <code>CBSE/Class_10/Mathematics/</code>).</li>
+            <li><strong>Download</strong> the resources folder or specific chapter files.</li>
+            <li><strong>Go to</strong> <a href="https://notebooklm.google.com/" target="_blank" style="color: #667eea;">NotebookLM</a> and create a new notebook.</li>
+            <li><strong>Upload</strong> the files.</li>
+            <li><strong>Start Learning!</strong> Try asking: <em>"Create a quiz based on the hardest concepts in this chapter."</em></li>
+        </ol>
+    </div>
+
+    <div class="content">
+        <h2>📝 Naming Convention</h2>
+        <p>To prevent AI hallucinations and ambiguity, all files follow this specific naming convention:</p>
+        <div class="code-block">
+[board]_[class]_[subject]_ch[number]_[chapter_name]_[type].pdf
+        </div>
+        <p><strong>Examples:</strong></p>
+        <ul>
+            <li><code>cbse_10_maths_ch06_triangles_textbook.pdf</code></li>
+            <li><code>cbse_10_maths_ch06_triangles_exemplar.pdf</code></li>
+        </ul>
+        <p>This ensures that even if you combine 50 files into one notebook, the AI knows exactly which source it is citing.</p>
+    </div>
+
+    <div class="content">
+        <h2>📂 Repository Structure</h2>
+        <p>The repository follows a strict <code>Board → Class → Subject</code> hierarchy to ensure scalability.</p>
+        <div class="code-block">
+notebooklm-education-hub/
+├── CBSE/
+│   ├── Class_10/
+│   │   ├── Mathematics/
+│   │   │   ├── resources/     # Optimized PDFs (renamed for AI context)
+│   │   │   └── README.md      # Chapter index & Study Links
+│   │   └── Science/
+│   └── Class_12/
+├── ICSE/
+└── State_Boards/
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>🤝 Contributing</h2>
+        <p>We welcome contributions! If you want to add resources for a new subject or board:</p>
+        <ol class="step-list">
+            <li>Create a new folder following the <code>Board/Class/Subject</code> structure.</li>
+            <li>Ensure PDFs are clean (OCR enabled) and renamed using our convention.</li>
+            <li>Submit a Pull Request.</li>
+        </ol>
+        <p style="margin-top: 20px;">
+            <a href="https://github.com/cvgoudartrain/notebooklm-education-hub" class="button button-secondary" target="_blank">View on GitHub →</a>
+        </p>
+    </div>
+    
+    <footer>
+        <p><strong>Disclaimer:</strong> This repository provides structure and metadata. Educational content copyright remains with the respective boards (NCERT, CBSE, etc.).</p>
+        <p>&copy; 2025 NotebookLM Education Hub | Free Educational Resources</p>
+    </footer>
+</body>
+</html>
+
