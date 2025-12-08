@@ -4,6 +4,7 @@ Allow: /
 # Sitemaps
 Sitemap: https://cvgoudartrain.github.io/notebooklm-education-hub/sitemap.xml
 Sitemap: https://cvgoudartrain.github.io/notebooklm-education-hub/CBSE/Class_10/Mathematics/sitemap.xml
+Sitemap: https://cvgoudartrain.github.io/notebooklm-education-hub/CBSE/Class_10/Science/sitemap.xml
 
 # Disallow private/internal directories
 Disallow: /docs/
