@@ -43,29 +43,13 @@
 <body>
     <header>
         <h1>🎓 CBSE Class 10 Mathematics</h1>
-        <div class="subtitle">Free NotebookLM AI Study Guides | All 14 Chapters Complete <span class="badge">100% FREE</span></div>
-
-        <div class="stats-dashboard">
-            <div class="stat-card">
-                <div class="stat-number" id="completedCount">0</div>
-                <div class="stat-label">Completed</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">14</div>
-                <div class="stat-label">Total Chapters</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="progressPercent">0%</div>
-                <div class="stat-label">Progress</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="studyStreak">0</div>
-                <div class="stat-label">Day Streak</div>
-            </div>
-        </div>
+        <div class="subtitle">Free NotebookLM AI Study Guides <span class="badge">100% FREE</span></div>
 
         <div class="progress-bar-container">
             <div class="progress-bar" id="overallProgress"></div>
+            <div class="progress-text">
+                <span id="completedCount">0</span>/14 Chapters • <span id="progressPercent">0%</span> Complete
+            </div>
         </div>
     </header>
 
@@ -88,21 +72,25 @@
     </div>
 
     <div class="content">
-        <h2>📚 Interactive AI-Powered Learning</h2>
-        <p>Access comprehensive NotebookLM study guides for all 14 chapters of CBSE Class 10 Mathematics. Each notebook is trained on official NCERT textbooks and exemplar problems, providing you with an AI tutor available 24/7.</p>
-
-        <h3>✨ Features</h3>
-        <ul>
-            <li>🤖 AI-powered explanations and concept clarity</li>
-            <li>📖 Based on official NCERT textbooks and exemplar problems</li>
-            <li>🎧 Audio overviews for revision while commuting</li>
-            <li>💬 Interactive Q&A with AI study companion</li>
-            <li>✅ All 14 chapters covered</li>
-            <li>🆓 Completely free to use</li>
-        </ul>
-
-        <h2>📖 All Chapters</h2>
+        <h2>📖 Study Guides & Chapters</h2>
         <div class="chapter-grid">
+            <!-- Full Course Notebook -->
+            <div class="chapter-card full-course-card" data-category="all">
+                <div class="card-header">
+                    <span class="chapter-number">All</span>
+                    <div class="card-badges">
+                        <span class="category-tag">Full Course</span>
+                    </div>
+                </div>
+                <div class="chapter-title">Complete Class 10 Mathematics</div>
+                <p style="color: var(--text-secondary); font-size: 0.9em; margin: 10px 0;">All 14 chapters combined in one comprehensive notebook for complete course revision.</p>
+                <div class="action-buttons">
+                    <a href="https://notebooklm.google.com/notebook/1b24a103-26d1-4845-a01f-3345253a630c" class="button button-primary" target="_blank" rel="noopener noreferrer">
+                        🎯 Access Full Course
+                    </a>
+                </div>
+            </div>
+
             <!-- Chapter 1: Real Numbers -->
             <div class="chapter-card" data-chapter="01" data-difficulty="medium" data-category="algebra" data-completed="false">
                 <div class="card-header">
@@ -533,13 +521,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <h3>🎯 Full Course Notebook</h3>
-        <div class="chapter-card">
-            <div class="chapter-title">Complete CBSE Class 10 Mathematics</div>
-            <p>All 14 chapters combined in one comprehensive notebook for complete course revision.</p>
-            <a href="https://notebooklm.google.com/notebook/1b24a103-26d1-4845-a01f-3345253a630c" class="button button-primary" target="_blank" rel="noopener noreferrer">Access Full Course →</a>
         </div>
 
         <h3>📚 View on GitHub</h3>
