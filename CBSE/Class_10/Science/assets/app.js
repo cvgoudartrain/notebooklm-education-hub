@@ -238,9 +238,14 @@ class FilterManager {
         const cards = document.querySelectorAll('.chapter-card');
 
         cards.forEach(card => {
-            const chapterNum = card.dataset.chapter;
-            const difficulty = card.dataset.difficulty;
-            const title = card.querySelector('.chapter-title').textContent.toLowerCase();
+            // Skip the full course card from filtering
+            if (card.classList.contains('full-course-card')) {
+                return;
+            }
+
+            const chapterNum = card.dataset.chapter || '';
+            const difficulty = card.dataset.difficulty || '';
+            const title = card.querySelector('.chapter-title')?.textContent.toLowerCase() || '';
 
             const matchesSearch = !this.searchTerm ||
                                   title.includes(this.searchTerm) ||
