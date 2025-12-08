@@ -201,6 +201,9 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Claude
+.claude/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
@@ -211,3 +214,6 @@ docs/
 
 # Image folders for README screenshots
 **/image/
+
+# Project scripts
+scripts/
