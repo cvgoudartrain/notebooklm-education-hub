@@ -502,6 +502,25 @@ ul {
     grid-column: 1 / -1;
 }
 
+/* Coming Soon Button Styles */
+.button.coming-soon {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+    position: relative;
+    background: linear-gradient(135deg, #999, #777);
+    box-shadow: none;
+}
+
+.button.coming-soon:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+[data-theme="dark"] .button.coming-soon {
+    background: linear-gradient(135deg, #555, #333);
+}
+
 /* Achievements Section */
 .achievements-section {
     background: var(--bg-secondary);

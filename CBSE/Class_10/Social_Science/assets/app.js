@@ -327,4 +327,24 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log('Study guide opened:', link.href);
         });
     });
+
+    // Disable "coming soon" links
+    const comingSoonLinks = document.querySelectorAll('a[data-coming-soon="true"], a.coming-soon');
+    comingSoonLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        });
+        
+        // Remove href to prevent navigation
+        if (link.getAttribute('href') === '#') {
+            link.removeAttribute('href');
+        }
+        
+        // Add visual feedback
+        link.style.cursor = 'not-allowed';
+        link.setAttribute('aria-disabled', 'true');
+        link.setAttribute('tabindex', '-1');
+    });
 });
