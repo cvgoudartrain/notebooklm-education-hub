@@ -81,7 +81,7 @@ class ProgressManager {
     }
 
     getProgressPercent() {
-        return Math.round((this.getCompletedCount() / 24) * 100);
+        return Math.round((this.getCompletedCount() / 22) * 100);
     }
 
     updateStats() {
@@ -128,8 +128,8 @@ class ProgressManager {
         const completed = this.getCompletedCount();
 
         if (completed >= 1) this.unlockAchievement('first-chapter');
-        if (completed >= 12) this.unlockAchievement('half-course');
-        if (completed >= 24) this.unlockAchievement('full-course');
+        if (completed >= 11) this.unlockAchievement('half-course');
+        if (completed >= 22) this.unlockAchievement('full-course');
         if (this.streak >= 7) this.unlockAchievement('week-streak');
     }
 
