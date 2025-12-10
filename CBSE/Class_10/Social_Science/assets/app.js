@@ -45,6 +45,21 @@ const STORAGE_KEYS = {
     STREAK: 'cbse_social_science_streak'
 };
 
+// Simple hit counter using CountAPI (free, no auth)
+function incrementHitCounter() {
+    const counterElem = document.getElementById('hitCounter');
+    if (!counterElem) return;
+
+    fetch('https://api.countapi.xyz/hit/notebooklm-education-hub/social-science')
+        .then(res => res.json())
+        .then(data => {
+            counterElem.textContent = data?.value ? data.value.toLocaleString() : '—';
+        })
+        .catch(() => {
+            counterElem.textContent = '—';
+        });
+}
+
 // ===================================
 // Progress Manager Class
 // ===================================
@@ -319,6 +334,9 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     });
+
+    // Increment and display page hit counter
+    incrementHitCounter();
 
     // Track link clicks (optional - for future analytics)
     const studyLinks = document.querySelectorAll('a[href*="notebooklm"]');
