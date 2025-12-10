@@ -256,13 +256,15 @@ class FilterManager {
                 return;
             }
 
-            const chapterNum = card.dataset.chapter || '';
+            const chapterNum = (card.dataset.chapter || '').toLowerCase();
             const difficulty = card.dataset.difficulty || '';
+            const category = card.dataset.category || '';
             const title = card.querySelector('.chapter-title')?.textContent.toLowerCase() || '';
 
             const matchesSearch = !this.searchTerm ||
                                   title.includes(this.searchTerm) ||
-                                  chapterNum.includes(this.searchTerm);
+                                  chapterNum.includes(this.searchTerm) ||
+                                  category.includes(this.searchTerm);
 
             const matchesFilter = this.activeFilter === 'all' ||
                                   difficulty === this.activeFilter;
