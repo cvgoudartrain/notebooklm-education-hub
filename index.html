@@ -378,23 +378,7 @@
     <footer>
         <p><strong>Disclaimer:</strong> This repository provides structure and metadata. Educational content copyright remains with the respective boards (NCERT, CBSE, etc.).</p>
         <p>&copy; 2025 NotebookLM Education Hub | Free Educational Resources</p>
-        <p style="margin-top: 15px; font-size: 0.9em; color: #888;">
-            Total Visits: <span id="visit-count" style="font-weight: bold; color: #667eea;">Loading...</span>
-        </p>
     </footer>
-
-    <!-- Visit Counter Script -->
-    <script>
-        fetch('https://api.countapi.xyz/hit/notebooklm-education-hub/visits')
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById('visit-count').textContent = data.value.toLocaleString();
-            })
-            .catch(error => {
-                document.getElementById('visit-count').textContent = 'N/A';
-                console.error('Error fetching visit count:', error);
-            });
-    </script>
 </body>
 </html>
 
