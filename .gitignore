@@ -37,6 +37,9 @@ CLAUDE.md
 # Strategy and planning documentation (not for public repo)
 docs/
 
+# Agent instruction documentation (private guidance)
+agent_docs/
+
 # Download scripts (use when needed, but keep out of git)
 scripts/
 
