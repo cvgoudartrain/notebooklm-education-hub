@@ -97,6 +97,24 @@
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 20px;
             margin: 30px 0;
+            max-height: 600px;
+            overflow-y: auto;
+            padding-right: 10px;
+            scroll-behavior: smooth;
+        }
+        .subject-grid::-webkit-scrollbar {
+            width: 8px;
+        }
+        .subject-grid::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        .subject-grid::-webkit-scrollbar-thumb {
+            background: #667eea;
+            border-radius: 10px;
+        }
+        .subject-grid::-webkit-scrollbar-thumb:hover {
+            background: #764ba2;
         }
         .subject-card {
             border: 2px solid #e0e0e0;
@@ -201,6 +219,45 @@
             justify-content: center;
             font-weight: bold;
         }
+        .search-container {
+            margin: 20px 0;
+            position: relative;
+            max-width: 500px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 12px 45px 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+            box-sizing: border-box;
+        }
+        .search-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        .search-icon {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #999;
+            font-size: 1.2em;
+        }
+        .subject-card.hidden {
+            display: none;
+        }
+        .no-results {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+            font-size: 1.1em;
+            display: none;
+        }
+        .no-results.visible {
+            display: block;
+        }
     </style>
     
     <!-- Schema.org structured data for better SEO -->
@@ -232,8 +289,13 @@
         <h2>📚 Available Subjects</h2>
         <p>Browse our collection of structured educational resources:</p>
 
+        <div class="search-container">
+            <input type="text" id="subjectSearch" class="search-input" placeholder="Search subjects (e.g., Mathematics, Class 10, Science)...">
+            <span class="search-icon">🔍</span>
+        </div>
+
         <div class="subject-grid">
-            <div class="subject-card">
+            <div class="subject-card" data-search="cbse class 10 mathematics maths">
                 <div class="subject-icon">📐</div>
                 <h3>CBSE Class 10</h3>
                 <h4>Mathematics</h4>
@@ -241,7 +303,7 @@
                 <a href="CBSE/Class_10/Mathematics/" class="button">Explore Mathematics →</a>
             </div>
 
-            <div class="subject-card">
+            <div class="subject-card" data-search="cbse class 10 science">
                 <div class="subject-icon">🔬</div>
                 <h3>CBSE Class 10</h3>
                 <h4>Science</h4>
@@ -249,7 +311,7 @@
                 <a href="CBSE/Class_10/Science/" class="button">Explore Science →</a>
             </div>
 
-            <div class="subject-card">
+            <div class="subject-card" data-search="cbse class 10 social science sst history geography civics political economics">
                 <div class="subject-icon">🌍</div>
                 <h3>CBSE Class 10</h3>
                 <h4>Social Science</h4>
@@ -257,7 +319,7 @@
                 <a href="CBSE/Class_10/Social_Science/" class="button">Explore Social Science →</a>
             </div>
 
-            <div class="subject-card">
+            <div class="subject-card" data-search="cbse class 10 english literature">
                 <div class="subject-icon">📚</div>
                 <h3>CBSE Class 10</h3>
                 <h4>English</h4>
@@ -265,7 +327,7 @@
                 <a href="CBSE/Class_10/English/" class="button">Explore English →</a>
             </div>
 
-            <div class="subject-card">
+            <div class="subject-card" data-search="cbse class 12 mathematics maths">
                 <div class="subject-icon">📐</div>
                 <h3>CBSE Class 12</h3>
                 <h4>Mathematics</h4>
@@ -273,6 +335,7 @@
                 <a href="CBSE/Class_12/Mathematics/" class="button">Explore Mathematics →</a>
             </div>
         </div>
+        <div class="no-results" id="noResults">No subjects found matching your search.</div>
     </div>
 
     <div class="content">
@@ -387,6 +450,36 @@
         <p><strong>Disclaimer:</strong> This repository provides structure and metadata. Educational content copyright remains with the respective boards (NCERT, CBSE, etc.).</p>
         <p>&copy; 2025 NotebookLM Education Hub | Free Educational Resources</p>
     </footer>
+
+    <script>
+        // Subject search functionality
+        const searchInput = document.getElementById('subjectSearch');
+        const subjectCards = document.querySelectorAll('.subject-card');
+        const noResults = document.getElementById('noResults');
+
+        searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase().trim();
+            let visibleCount = 0;
+
+            subjectCards.forEach(card => {
+                const searchData = card.getAttribute('data-search');
+
+                if (searchData.includes(searchTerm)) {
+                    card.classList.remove('hidden');
+                    visibleCount++;
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+
+            // Show/hide no results message
+            if (visibleCount === 0 && searchTerm !== '') {
+                noResults.classList.add('visible');
+            } else {
+                noResults.classList.remove('visible');
+            }
+        });
+    </script>
 </body>
 </html>
 
