@@ -6,6 +6,19 @@ This repository hosts a curated, structured collection of educational resources 
 
 The goal is to provide students and educators with clean, machine-readable datasets to build their own "Mega-Brain" AI study assistants.
 
+## 📚 Available Subjects
+
+**CBSE Class 10:**
+- **Mathematics** - 14 chapters with NotebookLM study guides
+- **Science** - 16 chapters with NotebookLM study guides
+- **Social Science** - 22 chapters with NotebookLM study guides
+- **English** - 18 chapters with NotebookLM study guides
+
+**CBSE Class 12:**
+- **Mathematics** - 13 chapters with NotebookLM study guides
+
+**Total: 83 chapters with pre-created AI study guides**
+
 ## 🚀 The "Hub & Spoke" Strategy
 
 We organize content to support two powerful study modes:
