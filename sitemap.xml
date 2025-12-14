@@ -10,6 +10,14 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- CBSE Class 10 English -->
+  <url>
+    <loc>https://cvgoudartrain.github.io/notebooklm-education-hub/CBSE/Class_10/English/</loc>
+    <lastmod>2025-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
   
   <!-- CBSE Class 10 Mathematics -->
   <url>
@@ -38,6 +46,14 @@
   <!-- CBSE Class 12 Mathematics -->
   <url>
     <loc>https://cvgoudartrain.github.io/notebooklm-education-hub/CBSE/Class_12/Mathematics/</loc>
+    <lastmod>2025-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- CBSE Class 12 Physics -->
+  <url>
+    <loc>https://cvgoudartrain.github.io/notebooklm-education-hub/CBSE/Class_12/Physics/</loc>
     <lastmod>2025-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
