@@ -14,6 +14,7 @@ Sitemap: https://cvgoudartrain.github.io/notebooklm-education-hub/CBSE/Class_12/
 Sitemap: https://cvgoudartrain.github.io/notebooklm-education-hub/CBSE/Class_12/English_Core/sitemap.xml
 Sitemap: https://cvgoudartrain.github.io/notebooklm-education-hub/CBSE/Class_11/Physics/sitemap.xml
 Sitemap: https://cvgoudartrain.github.io/notebooklm-education-hub/CBSE/Class_11/Chemistry/sitemap.xml
+Sitemap: https://cvgoudartrain.github.io/notebooklm-education-hub/CBSE/Class_11/Mathematics/sitemap.xml
 Sitemap: https://cvgoudartrain.github.io/notebooklm-education-hub/CBSE/Class_11/Biology/sitemap.xml
 
 # Disallow private/internal directories

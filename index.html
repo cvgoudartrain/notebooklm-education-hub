@@ -268,6 +268,19 @@
         .no-results.visible {
             display: block;
         }
+        .phased-note {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeeba 100%);
+            border: 1px solid #ffc107;
+            border-left: 4px solid #ffc107;
+            padding: 12px 16px;
+            border-radius: 6px;
+            margin: 15px 0;
+            font-size: 0.95em;
+            color: #856404;
+        }
+        .phased-note strong {
+            color: #664d03;
+        }
     </style>
     
     <!-- Schema.org structured data for better SEO -->
@@ -304,7 +317,12 @@
             <span class="search-icon">🔍</span>
         </div>
 
+        <div class="phased-note">
+            ⏳ <strong>Phased Rollout:</strong> Some NotebookLM assets (Audio Overviews, Mind Maps, Flashcards, Quizzes, etc.) are being generated gradually due to NotebookLM rate limits. Study guides are available — enhanced assets are added daily!
+        </div>
+
         <div class="subject-grid">
+            <!-- Class 10 Subjects -->
             <div class="subject-card" data-search="cbse class 10 mathematics maths">
                 <div class="subject-icon">📐</div>
                 <h3>CBSE Class 10</h3>
@@ -337,14 +355,40 @@
                 <a href="CBSE/Class_10/English/" class="button">Explore English →</a>
             </div>
 
-            <div class="subject-card" data-search="cbse class 12 mathematics maths">
-                <div class="subject-icon">📐</div>
-                <h3>CBSE Class 12</h3>
-                <h4>Mathematics</h4>
-                <p>All 13 chapters with NotebookLM study guides</p>
-                <a href="CBSE/Class_12/Mathematics/" class="button">Explore Mathematics →</a>
+            <!-- Class 11 Subjects (Science Stream) -->
+            <div class="subject-card" data-search="cbse class 11 physics">
+                <div class="subject-icon">⚛️</div>
+                <h3>CBSE Class 11</h3>
+                <h4>Physics</h4>
+                <p>All 14 chapters with NotebookLM study guides</p>
+                <a href="CBSE/Class_11/Physics/" class="button">Explore Physics →</a>
             </div>
 
+            <div class="subject-card" data-search="cbse class 11 chemistry">
+                <div class="subject-icon">🧪</div>
+                <h3>CBSE Class 11</h3>
+                <h4>Chemistry</h4>
+                <p>All 9 chapters with NotebookLM study guides</p>
+                <a href="CBSE/Class_11/Chemistry/" class="button">Explore Chemistry →</a>
+            </div>
+
+            <div class="subject-card" data-search="cbse class 11 mathematics maths">
+                <div class="subject-icon">📐</div>
+                <h3>CBSE Class 11</h3>
+                <h4>Mathematics</h4>
+                <p>All 14 chapters with NotebookLM study guides</p>
+                <a href="CBSE/Class_11/Mathematics/" class="button">Explore Mathematics →</a>
+            </div>
+
+            <div class="subject-card" data-search="cbse class 11 biology">
+                <div class="subject-icon">🧬</div>
+                <h3>CBSE Class 11</h3>
+                <h4>Biology</h4>
+                <p>All 19 chapters with NotebookLM study guides</p>
+                <a href="CBSE/Class_11/Biology/" class="button">Explore Biology →</a>
+            </div>
+
+            <!-- Class 12 Subjects (Science Stream) -->
             <div class="subject-card" data-search="cbse class 12 physics">
                 <div class="subject-icon">⚛️</div>
                 <h3>CBSE Class 12</h3>
@@ -353,12 +397,36 @@
                 <a href="CBSE/Class_12/Physics/" class="button">Explore Physics →</a>
             </div>
 
-            <div class="subject-card" data-search="cbse class 11 physics">
-                <div class="subject-icon">⚛️</div>
-                <h3>CBSE Class 11</h3>
-                <h4>Physics</h4>
+            <div class="subject-card" data-search="cbse class 12 chemistry">
+                <div class="subject-icon">🧪</div>
+                <h3>CBSE Class 12</h3>
+                <h4>Chemistry</h4>
+                <p>All 10 chapters with NotebookLM study guides</p>
+                <a href="CBSE/Class_12/Chemistry/" class="button">Explore Chemistry →</a>
+            </div>
+
+            <div class="subject-card" data-search="cbse class 12 mathematics maths">
+                <div class="subject-icon">📐</div>
+                <h3>CBSE Class 12</h3>
+                <h4>Mathematics</h4>
+                <p>All 13 chapters with NotebookLM study guides</p>
+                <a href="CBSE/Class_12/Mathematics/" class="button">Explore Mathematics →</a>
+            </div>
+
+            <div class="subject-card" data-search="cbse class 12 biology">
+                <div class="subject-icon">🧬</div>
+                <h3>CBSE Class 12</h3>
+                <h4>Biology</h4>
+                <p>All 13 chapters with NotebookLM study guides</p>
+                <a href="CBSE/Class_12/Biology/" class="button">Explore Biology →</a>
+            </div>
+
+            <div class="subject-card" data-search="cbse class 12 english core literature">
+                <div class="subject-icon">📚</div>
+                <h3>CBSE Class 12</h3>
+                <h4>English Core</h4>
                 <p>All 14 chapters with NotebookLM study guides</p>
-                <a href="CBSE/Class_11/Physics/" class="button">Explore Physics →</a>
+                <a href="CBSE/Class_12/English_Core/" class="button">Explore English Core →</a>
             </div>
         </div>
         <div class="no-results" id="noResults">No subjects found matching your search.</div>
@@ -405,12 +473,12 @@
             </div>
             <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 8px; backdrop-filter: blur(10px);">
                 <strong style="font-size: 1.1em;">📚 Pre-Created Study Guides</strong>
-                <p style="margin: 10px 0 0 0; opacity: 0.95;">97 chapter notebooks with textbook PDFs already uploaded and ready to use</p>
+                <p style="margin: 10px 0 0 0; opacity: 0.95;">190 chapter notebooks with textbook PDFs already uploaded and ready to use</p>
             </div>
         </div>
         <div style="margin-top: 25px; padding: 20px; background: rgba(255,255,255,0.15); border-radius: 8px; border-left: 4px solid rgba(255,255,255,0.5);">
-            <strong style="font-size: 1.1em;">✅ 97 Total Chapters Available</strong>
-            <p style="margin: 10px 0 0 0; opacity: 0.95;">Class 10: Mathematics (14) • Science (16) • Social Science (22) • English (18) | Class 12: Mathematics (13) • Physics (14)</p>
+            <strong style="font-size: 1.1em;">✅ 190 Total Chapters Available</strong>
+            <p style="margin: 10px 0 0 0; opacity: 0.95;">Class 10: Mathematics (14) • Science (16) • Social Science (22) • English (18) | Class 11: Physics (14) • Chemistry (9) • Mathematics (14) • Biology (19) | Class 12: Physics (14) • Chemistry (10) • Mathematics (13) • Biology (13) • English Core (14)</p>
         </div>
     </div>
 
@@ -449,12 +517,19 @@
 │   │   │   ├── resources/     # Optimized PDFs (renamed for AI context)
 │   │   │   └── index.html     # Interactive study guide
 │   │   ├── Science/
-│   │   │   ├── resources/     # Optimized PDFs (renamed for AI context)
-│   │   │   └── index.html     # Interactive study guide
-│   │   └── Social_Science/
-│   │       ├── resources/     # Optimized PDFs (renamed for AI context)
-│   │       └── index.html     # Interactive study guide
+│   │   ├── Social_Science/
+│   │   └── English/
+│   ├── Class_11/
+│   │   ├── Physics/
+│   │   ├── Chemistry/
+│   │   ├── Mathematics/
+│   │   └── Biology/
 │   └── Class_12/
+│       ├── Physics/
+│       ├── Chemistry/
+│       ├── Mathematics/
+│       ├── Biology/
+│       └── English_Core/
 ├── ICSE/
 └── State_Boards/</pre>
     </div>
