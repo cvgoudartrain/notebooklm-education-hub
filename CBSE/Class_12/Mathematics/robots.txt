@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://cvgoudartrain.github.io/notebooklm-education-hub/CBSE/Class_12/Mathematics/sitemap.xml
-
