@@ -50,3 +50,4 @@ Thumbs.db
 
 # Playwright MCP
 .playwright-mcp/
+.playwright-data/
